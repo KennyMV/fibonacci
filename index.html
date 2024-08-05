@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Fibonacci</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <img src="calculadora_fibonacci.jpg" alt="Calculadora Fibonacci" class="header-image">
+        <h1>Calculadora de Fibonacci</h1>
+        <label for="num" class="label-input">Escriba el valor:</label>
+        <input type="text" id="num" class="input-text">
+        <div class="buttons">
+            <button onclick="calcularFibonacci()" class="btn btn-calculate">Calcular</button>
+            <button onclick="limpiar()" class="btn btn-clear">Limpiar</button>
+            <button onclick="salir()" class="btn btn-exit">Salir</button>
+        </div>
+        <div class="result-container">
+            <ul id="result" class="result-list"></ul>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

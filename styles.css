@@ -1,0 +1,93 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 600px;
+    height: 700px;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.header-image {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+h1 {
+    color: black;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.label-input {
+    color: blue;
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.input-text {
+    font-size: 14px;
+    color: black;
+    background-color: yellow;
+    padding: 5px;
+    margin: 10px 0;
+    width: 100px;
+    text-align: center;
+}
+
+.buttons {
+    margin: 20px 0;
+}
+
+.btn {
+    padding: 10px 20px;
+    font-weight: bold;
+    font-size: 16px;
+    margin: 5px;
+    cursor: pointer;
+    color: white;
+}
+
+.btn-calculate {
+    background-color: navy;
+}
+
+.btn-clear {
+    background-color: green;
+}
+
+.btn-exit {
+    background-color: red;
+}
+
+.result-container {
+    margin-top: 20px;
+    max-height: 300px;
+    overflow-y: auto;
+    width: 100%;
+}
+
+.result-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.result-list li {
+    font-size: 18px;
+    margin: 5px 0;
+    color: #333;
+}
